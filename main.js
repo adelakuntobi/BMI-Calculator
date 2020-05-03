@@ -21,7 +21,11 @@ var standardWeight, standardHeight, metricWeight, metricHeight;
 
     result = standardWeight/Math.pow((standardHeight/100),2);
     num2 = result.toFixed(2)
-   display.innerHTML = parseFloat(num2);
+    if (result == NaN){
+      display.innerHTML = "Error";
+    }
+    else if(result == Infinity){display.innerHTML = "Error";}
+   else{display.innerHTML = parseFloat(num2);}
   }
 
   function metricCalc(metricWeight, metricHeight) {
@@ -30,5 +34,10 @@ var standardWeight, standardHeight, metricWeight, metricHeight;
 
     result = 703 * metricWeight/Math.pow(metricHeight,2);
     num2 = result.toFixed(2)
-   display.innerHTML = parseFloat(num2);
+    if (result == NaN){
+      display.innerHTML = "Error";
+    }
+    else if(result == Infinity){display.innerHTML = "Error";}
+   else{display.innerHTML = parseFloat(num2);}
+
   }
