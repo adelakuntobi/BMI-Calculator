@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+  margin: 25% 0;
+  background-color: #e8e8e857;
+  font-family: 'Raleway', sans-serif;
+}
+.container{
+  margin: auto;
+  width: 84%;
+}
+input{
+  max-width: 50%;
+  padding: 15px;
+  border-radius: 6px;
+  outline: none;
+  margin: 10px;
+  font-size: 18px;
+  border: 2px solid white;
+}
+button{
+  background-color: darkviolet;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+input[type="button"]{
+  text-align: center;
+}
+label{
+  font-weight: 600;
+}
+#second{
+  display: none;
+}
+span{
+  white-space: pre;
+  font-size: 25px;
+}
