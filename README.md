@@ -1,3 +1,3 @@
-# BMI-Calculator
+# The BMI Calculator
 
 https://adelakuntobi.github.io/BMI-Calculator/
